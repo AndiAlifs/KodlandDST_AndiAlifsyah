@@ -6,6 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Kodland Andi Alifsyah</title>
         <link rel="stylesheet" href="asset/css/style.css">
+        <!-- untuk css burger -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
     </head>
     <body>
         <nav>
@@ -20,6 +22,15 @@
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </div>
+                <!-- burger menu icon, akan muncul kalau di hp atau tablet -->
+                <a href="javascript:void(0);" id="burger-icon" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+            <div id="burger__menu">
+                <a href="#news">News</a>
+                <a href="#contact">Contact</a>
+                <a href="#about">About</a>
             </div>
         </nav>
         <div class="container__header">
@@ -78,4 +89,5 @@
             </div>
 
     </body>
+    <script src="asset/js/script.js"></script>
 </html>

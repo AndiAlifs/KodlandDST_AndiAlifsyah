@@ -12,6 +12,24 @@ body {
     margin: 0%;
 }
 
+#burger-icon {
+    display: none;
+}
+
+#burger__menu {
+    display: none;
+    transition: ease-in-out;
+}
+
+#burger__menu a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    background-color: #ac6100;
+  }
+
 .container__nav {
     display: flex;
     justify-content: space-between;
@@ -245,5 +263,11 @@ body {
     .container__sec3__text {
         width: 100%;
         margin: 0%;
+    }
+
+    #burger-icon {
+        display: block;
+        font-size: 2rem;
+        cursor: pointer;
     }
 }
